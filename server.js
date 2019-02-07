@@ -28,7 +28,7 @@ const authRoutes = require('./auth');
 const adminRoutes = require('./admin-routes');
 const statisticRoutes = require('./statistic-routes');
 // settings
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 8080);
 
 app.use(bodyParser.urlencoded({
   extended: true
